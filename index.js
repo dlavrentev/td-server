@@ -12,7 +12,6 @@ const bcrypt = require('bcryptjs')
 const cors = require('cors');
 app.use(cors({origin:'*'}))
 
-
 // Import Routers
 
 const usersRouter = require('./routes/user-routes')
